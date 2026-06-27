@@ -1,0 +1,18 @@
+name: "Degoog"
+version: "1.0.0"
+slug: "degoog"
+description: "A minimal, modular self-hosted meta-search aggregator for searching multiple engines."
+url: "https://github.com/degoog-org/degoog"
+arch:
+  - amd64
+  - aarch64
+boot: "auto"
+ports:
+  4444/tcp: 4444
+host_network: false
+ingress: true
+ingress_port: 4444
+options:
+  settings_password: ""
+schema:
+  settings_password: "str?"
