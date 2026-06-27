@@ -1,6 +1,6 @@
 # MnApps Home Assistant Add-ons
 
-Welcome to the **MnApps Home Assistant Add-on Repository**. This repository contains custom-built Home Assistant add-ons designed to effortlessly convert self-hosted services into installable components within your Home Assistant ecosystem.
+This repository contains self-hosted services converted to be installable components within your Home Assistant ecosystem.
 
 ---
 
