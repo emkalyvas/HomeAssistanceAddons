@@ -1,0 +1,16 @@
+name: "CloakBrowser CDP Server"
+version: "1.0.0"
+slug: "cloakbrowser_server"
+description: "Stealth-focused Chromium-based browser with CDP server enabled for automation and scraping."
+url: "https://github.com/CloakHQ/CloakBrowser"
+arch:
+  - amd64
+  - aarch64
+boot: "auto"
+ports:
+  9222/tcp: 9222
+host_network: false
+options:
+  fetch_widevine: false
+schema:
+  fetch_widevine: bool

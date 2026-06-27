@@ -1,0 +1,18 @@
+name: "CloakBrowser Manager"
+version: "1.0.0"
+slug: "cloakbrowser_manager"
+description: "Web-based management interface for isolated stealth browser profiles utilizing CloakBrowser."
+url: "https://github.com/CloakHQ/CloakBrowser-Manager"
+arch:
+  - amd64
+  - aarch64
+boot: "auto"
+ports:
+  8080/tcp: 8080
+host_network: false
+ingress: true
+ingress_port: 8080
+options:
+  auth_token: ""
+schema:
+  auth_token: "str?"
